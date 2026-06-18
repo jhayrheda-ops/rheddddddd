@@ -6,8 +6,8 @@ async function loadVisitorInfo() {
         document.getElementById("country").textContent = data.country;
         document.getElementById("ip").textContent = data.ip;
     } catch (err) {
-        document.getElementById("country").textContent = "Unavailable";
-        document.getElementById("ip").textContent = "Unavailable";
+        document.getElementById("country").textContent = "Insert here";
+        document.getElementById("ip").textContent = "Insert here";
     }
 }
 
